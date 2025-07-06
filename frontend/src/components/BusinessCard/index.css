@@ -1,0 +1,48 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 2px #000000 solid;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.card-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.icons{
+    height: 20px;
+    width: 20px;
+    margin-right: 7px;
+}
+
+.items-names{
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.items-values {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.regenerate-btn{
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 16px;
+    height: 60px;
+    width: 150px;
+    border: 2px #000000 solid;
+    border-radius: 7px;
+    background-color: #f5071f;
+    align-self: center;
+    border-width: 0px;
+}

@@ -1,0 +1,36 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.input-element {
+    font-family: "Roboto";
+    font-size: 16px;
+    border: 2px #000000 solid;
+    height: 40px;
+    width: 150px;
+    padding-left: 7px;
+    border-radius: 7px;
+    margin-right: 40px;
+}
+
+.submit-btn{
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 16px;
+    height: 40px;
+    width: 150px;
+    border: 2px #000000 solid;
+    border-radius: 7px;
+    background-color: #07de72;
+    border-width: 0px;
+}
